@@ -22,7 +22,7 @@ Conjunto de projetos de frontend inspirados na apresentação do professor **Joh
 
 ### Imagem da tela do App mostrando o efeito Accordion no design da seção **Questions** de uma web page:
 
-![Imagem da tela do App mostrando o efeito Accordion no design](/public/images/tela-principal.png)
+![Imagem da tela do App mostrando o efeito Accordion no design](/public/images/tela-principal-do-app.png)
 
 <br />
 <br />
