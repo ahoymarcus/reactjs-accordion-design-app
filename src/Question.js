@@ -5,14 +5,25 @@ import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai';
 
 
 const Question = ({ id, title, info }) => {
+  const [ showInfo, setShowInfo ] = useState(false);
+
+
   
-  // const toggleBtn = () ==> {
-	// 	if () {
-	// 		return <button onClick={} >+</button>;
-	// 	} else {
-	// 		return <button onClick={} >-</button>;
-	// 	}
-	// };
+  const renderIcon = () => {
+    if (showInfo) {
+      return <AiOutlineMinus />;
+    } else {
+      return <AiOutlinePlus />
+    }
+  };
+  
+  const toggleBtn = () => {
+		if (!showInfo) {
+		  setShowInfo(true);
+		} else {
+			setShowInfo(false);
+		}
+	};
 
 
 
@@ -20,10 +31,10 @@ const Question = ({ id, title, info }) => {
     <article className="question">
       <header>
 			  <h4>{title}</h4>
-        <button className="btn" >btn</button>
+        <button className="btn" onClick={toggleBtn} >{renderIcon()}</button>
       </header>
-      
-			<p>{info}</p>
+
+      {showInfo && <p>{info}</p>}
 
 		</article>
   );
