@@ -7,21 +7,21 @@ import SingleQuestion from './Question';
 
 function App() {
   // console.log(data);
+  const [ questions, setQuestions ] = useState(data);
 
-  const renderQuestions = data.map((question) => {
+  const renderQuestions = questions.map((question) => {
 		
 		return <SingleQuestion key={question.id} {...question} />;
 	});
 
   return (
     <main>
-			<header>
-				<h1>Questions</h1>
-			</header>
-			<div>
-				<ul>
-					{renderQuestions}
-				</ul>
+			<div className="container" >
+				<h3>Questions and Answers about login</h3>
+
+        <section className="info" >
+          {renderQuestions}
+        </section>
 			</div>
 		</main>
   );
