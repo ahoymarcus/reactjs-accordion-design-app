@@ -1,12 +1,12 @@
-# Birthday Reminder - React-JS
+# React-JS Accordion App - React-JS
 
 <br />
 
-O projeto consome dados de um arquivo e renderiza os dados num cartão apresentando dados pessoais, especialmente idade e data de aniversário.
+O projeto consome dados de um arquivo e renderiza os dados num cartão que representa uma seção de uma páginas **Questions** sobre login.
 
 <br />
 
-**Tendo sido adicionado ao projeto a funcionalidade de selecionar apenas os dados de aniversariantes do dia.**
+Como funcionalidade especial, o app dá para a seção do site pretendido a capacidade de rederização condicionada para togar perguntas e respostas no estilo Accordion de design.
 
 <br />
 
@@ -20,15 +20,9 @@ Conjunto de projetos de frontend inspirados na apresentação do professor **Joh
 
 <br />
 
-### Imagem do card com Lista de Contatos:
+### Imagem da tela do App mostrando o efeito Accordion no design da seção **Questions** de uma web page:
 
-![Imagem do card com Lista de Contatos](/public/images/lista-de-contatos.png)
-
-<br />
-
-### Imagem da funcionalidade acrescida de Aniversariantes do Dia:
-
-![Imagem da funcionalidade acrescida de Aniversariantes do Dia](/public/images/aniversariantes-do-dia.png)
+![Imagem da tela do App mostrando o efeito Accordion no design](/public/images/tela-principal.png)
 
 <br />
 <br />
