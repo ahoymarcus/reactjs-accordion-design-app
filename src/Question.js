@@ -17,14 +17,15 @@ const Question = ({ id, title, info }) => {
 
 
   return (
-    <div>
-			<h4>{title}</h4>
+    <article className="question">
+      <header>
+			  <h4>{title}</h4>
+        <button className="btn" >btn</button>
+      </header>
+      
 			<p>{info}</p>
-		</div>
-		
-    /*
-		  {toggleBtn}
-    */
+
+		</article>
   );
 };
 
